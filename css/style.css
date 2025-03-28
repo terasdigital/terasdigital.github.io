@@ -465,6 +465,11 @@ footer p {
   font-size: 0.875rem;
   color: #555;
   text-align: center;
+  font-weight: 400;
+}
+
+footer p span {
+  font-weight: 700;
 }
 
 /* Media Queries */
