@@ -147,6 +147,12 @@ nav i#hamburger-menu {
   padding: 1.5rem 3.6rem;
   color: #fff;
   border-radius: 67px;
+  transition: 0.3s;
+}
+
+.content .text-hero a:hover {
+  transform: scale(1.05);
+  background-color: var(--secondary);
 }
 
 .content .image-hero {
