@@ -446,10 +446,6 @@ section.contact {
   font-size: 1.875rem;
 }
 
-.contact .ctc-sosmed a {
-  color: #000;
-}
-
 .contact .ctc-sosmed i {
   margin: 0 1rem;
   font-size: 1.25rem;
@@ -458,6 +454,14 @@ section.contact {
   padding: 0.5rem;
   aspect-ratio: 2;
   text-align: center;
+  color: #000;
+  transition: 0.5s;
+}
+
+.contact .ctc-sosmed i:hover {
+  border: none;
+  background-color: var(--primary);
+  color: #fff;
 }
 
 footer {
